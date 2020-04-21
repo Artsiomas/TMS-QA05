@@ -1,7 +1,10 @@
 package HW_2;
 
+// названия пакетов с маленькой буквы
+// task_1 -> Task_1
 public class task_1 {
     public static void main(String[] args) {
+        // задача решается при помощи цикла
         double distance = 10;
         double increaseDistance = 1.1;
         double x;
