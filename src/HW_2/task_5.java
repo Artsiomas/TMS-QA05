@@ -1,10 +1,14 @@
 package HW_2;
 
+// названия пакетов с маленькой буквы
+// task_5 -> Task_5
 public class task_5 {
     public static void main(String[] args) {
-        double inch;
+        double inch; // отсюда убираем
         double cm = 2.54;
         double numberCm;
+        // for (int inch = 1; inch < 21; inch++) {
+        // 21 - в отдельную переменную
         for (inch = 1; inch < 21; inch++) {
             numberCm = inch * cm;
             System.out.println(inch + " дюйм равен " + numberCm + " сантиметров");
