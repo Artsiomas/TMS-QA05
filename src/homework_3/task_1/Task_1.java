@@ -30,6 +30,6 @@ public class Task_1 {
         System.out.println("Сумма ваших чисел равна: " + sum);
         System.out.println("Максимальное число равно: " + max);
         System.out.println("минимальное число равно: " + min);
-    }
+    }//
 }
 
