@@ -1,4 +1,4 @@
-package HW_3;
+package homework_3.task_5;
 
 public class Task_5 {
     public static void main(String[] args) {
@@ -15,9 +15,5 @@ public class Task_5 {
         for ( i = 0; i<size; i++) {
             System.out.print( num[i] + " ");
         }
-        //StringBuffer buffer = new StringBuffer(String.valueOf(num));
-        //buffer.reverse();
-        //System.out.println(buffer);
-
     }
 }

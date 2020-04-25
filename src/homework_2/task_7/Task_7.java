@@ -1,8 +1,8 @@
-package HW_2;
+package homework_2.task_7;
 
 // названия пакетов с маленькой буквы
 // task_7 -> Task_7
-public class task_7 {
+public class Task_7 {
     public static void main(String[] args) {
 
         int number, sum;

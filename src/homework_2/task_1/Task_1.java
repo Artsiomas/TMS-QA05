@@ -1,6 +1,6 @@
-package HW_2;
+package homework_2.task_1;
 
-public class task_1 {
+public class Task_1 {
     public static void main(String[] args) {
         double distance = 10;
         double increaseDistance = 1.1;
