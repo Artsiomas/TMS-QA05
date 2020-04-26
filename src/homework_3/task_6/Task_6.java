@@ -5,6 +5,7 @@ import java.util.Arrays;
 // не забывай форматировать код
 public class Task_6 {
     public static void main(String[] args) {
+       // int num[] = {95, 56, 45, 9, 63, 59, 40, 47, 96, 3};
         int num[] = new int[]{95, 56, 45, 9, 63, 59, 40, 47, 96, 3};
 
         int a = 0; // плохое название переменной
