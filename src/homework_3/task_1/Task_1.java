@@ -26,10 +26,11 @@ public class Task_1 {
 
             if (massive[element] < min)
                 min = massive[element];
+            // не понимаю почему min работает не правильно, т.е. он выводит всегда число 0, а не минимально введенное пользователем
         }
-        System.out.println("Сумма ваших чисел равна: " + sum);
-        System.out.println("Максимальное число равно: " + max);
-        System.out.println("минимальное число равно: " + min);
-    }//
+        System.out.println("Сумма ваших чисел равна: " + sum + ";");
+        System.out.println("Максимальное число равно: " + max + ";");
+        System.out.println("минимальное число равно: " + min + ";");
+    }
 }
 
