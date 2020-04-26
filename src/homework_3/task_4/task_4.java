@@ -8,6 +8,21 @@ public class task_4 {
         int a = 1;
         int b = 1;
         int i = 1;
+        
+        /*
+        for (int i = 0; i < size; i++) {
+            for (int b = 0; b < size; b++) {
+                num[i][b] = (i + 1) * (b + 1);
+            }
+        }
+
+        for (int i = 0; i < num.length; i++) {
+            System.out.println(Arrays.toString(num[i]));
+        }
+        
+        примерно так долнжа выглядить программа, не стоит использовать if и фактические цифры для заполнения
+        подумай что будет, если появится необходимость увеличить размер таблицы, в твоем вариант надо будет дописать код
+        */ 
         for ( i = 1; i < size; i++) {
             for (b = 1; b<size; b++) {
                 if (i == 1) num[1][b] = a * b;
