@@ -1,5 +1,6 @@
 package homework_3.task_2;
 
+// не забывай форматировать код
 public class Task_2 {
     public static void main(String[] args) {
         int num [] = new int [] {1,2,3,4,5};
