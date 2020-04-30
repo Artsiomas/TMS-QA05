@@ -9,10 +9,10 @@ public class ExecutionQueue {
 
     {
         msg = "regular block";
-    }
+    } // абзац
     public ExecutionQueue() {
         msg = "constructor value";
-    }
+    }// абзац
     public String getMsg() {
         return msg;
     }
