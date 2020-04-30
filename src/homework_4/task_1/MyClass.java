@@ -2,7 +2,7 @@ package homework_4.task_1;
 
 import java.util.Objects;
 
-public class MyClass {
+public class MyClass { // MyClass - думаю стоит подумать над другим названием
     private static String text = "Hello form static";
 
     private int age;
@@ -20,19 +20,19 @@ public class MyClass {
 
     public String getName () {
         return name;
-    }
+    }// абзац
     public int getAge () {
         return age;
-    }
+    }// абзац
     void showName() {
         System.out.println("Имя: " + name + "; Возраст: " + age);
-    }
+    }// абзац
     public String showResult() {
         return "Имя: " + name + ", Возраст:" + age;
-    }
+    }// абзац
     public String getText () {
         return text;
-    }
+    }// абзац
     public void setText (String text) {
         this.text= text;
     }
