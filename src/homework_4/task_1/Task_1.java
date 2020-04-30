@@ -2,13 +2,13 @@ package homework_4.task_1;
 
 public class Task_1 {
     public static void main(String[] args) {
-        MyСlass A = new MyСlass();
+        MyClass Human = new MyClass();
 
 
-        A.getAge();
-        A.getName();
+        Human.getAge();
+        Human.getName();
 
 
-        A.show();
+        Human.showName();
     }
 }
