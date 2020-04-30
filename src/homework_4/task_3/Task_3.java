@@ -18,7 +18,6 @@ public class Task_3 {
             for (int a = i + 1; a<arrayHuman.length; a++) {
                 if (arrayHuman[i].equals(arrayHuman[a])) {
                     num++;
-                    System.out.println(arrayHuman[i] + ";" + arrayHuman[a].showResult());
                 }
             }
         }
