@@ -12,8 +12,10 @@ public class Task_3 {
         arrayHuman [2] = new MyClass(20, "Артем");
         arrayHuman [3] = new MyClass(20, "Артем");
 
-        int num = 0;
+        int num = 0; 
 
+        // не забывай форматировать код
+        // думаю логику по подсчету одинаковых можно вынести в отдельный метод
         for (int i = 0; i<arrayHuman.length; i++) {
             for (int a = i + 1; a<arrayHuman.length; a++) {
                 if (arrayHuman[i].equals(arrayHuman[a])) {
